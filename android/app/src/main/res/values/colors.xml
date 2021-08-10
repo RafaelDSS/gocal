@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <!-- Cutom Colors -->
+    <color name="colorPrimary">#37B874</color>
+    <color name="colorBackground">#F3F3F3</color>
+</resources>
