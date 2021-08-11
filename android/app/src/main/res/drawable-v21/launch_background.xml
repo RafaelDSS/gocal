@@ -7,5 +7,14 @@
     <item
         android:gravity="center"
         android:drawable="@drawable/gocal" />
+    
+    <item
+        android:width="200dp"
+        android:height="16dp"
+        android:viewportWidth="200"
+        android:viewportHeight="16"  
+        android:bottom="100dp"
+        android:gravity="bottom|center_horizontal"
+        android:drawable="@drawable/owner" />
 
 </layer-list>

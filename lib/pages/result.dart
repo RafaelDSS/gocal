@@ -13,7 +13,7 @@ class ResultsPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Color(0xffF3F3F3),
       body: SingleChildScrollView(
-        padding: const EdgeInsets.symmetric(vertical: 40, horizontal: 12),
+        padding: const EdgeInsets.symmetric(vertical: 40, horizontal: 20),
         child: Container(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -36,7 +36,7 @@ class ResultsPage extends StatelessWidget {
                   ],
                 ),
               ),
-              SizedBox(height: 30),
+              SizedBox(height: 35),
               customListTextSpan(
                 [
                   "Seu ",
@@ -45,7 +45,7 @@ class ResultsPage extends StatelessWidget {
                   "${result.metabolismoBasal} calorias.",
                 ],
               ),
-              SizedBox(height: 25),
+              SizedBox(height: 30),
               customListTextSpan(
                 [
                   "Para ",
@@ -54,7 +54,7 @@ class ResultsPage extends StatelessWidget {
                   "${result.caloriasParaManterPeso} calorias."
                 ],
               ),
-              SizedBox(height: 25),
+              SizedBox(height: 30),
               customListTextSpan(
                 [
                   "Para ",
@@ -63,7 +63,7 @@ class ResultsPage extends StatelessWidget {
                   "${result.caloriasParaPerderPeso} calorias."
                 ],
               ),
-              SizedBox(height: 25),
+              SizedBox(height: 30),
               customListTextSpan(
                 [
                   "Para ",
@@ -72,7 +72,7 @@ class ResultsPage extends StatelessWidget {
                   "${result.caloriasParaGanharPeso} calorias."
                 ],
               ),
-              SizedBox(height: 25),
+              SizedBox(height: 100),
               button(
                 title: "Reiniciar",
                 onPressed: () => {

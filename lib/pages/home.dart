@@ -8,6 +8,8 @@ const SystemUiOverlayStyle overlayStyle = SystemUiOverlayStyle(
   systemNavigationBarColor: const Color(0xffF3F3F3),
   systemNavigationBarIconBrightness: Brightness.dark,
   systemNavigationBarDividerColor: Colors.transparent,
+  statusBarColor: Colors.transparent,
+  statusBarIconBrightness: Brightness.dark,
 );
 
 class HomePage extends StatelessWidget {
@@ -18,14 +20,14 @@ class HomePage extends StatelessWidget {
     final _formKey = GlobalKey<FormState>();
     String? name;
 
-    Future.delayed(Duration(microseconds: 5500), () {
+    Future.delayed(Duration(microseconds: 500), () {
       SystemChrome.setSystemUIOverlayStyle(overlayStyle);
     });
 
     return Scaffold(
       backgroundColor: Color(0xffF3F3F3),
       body: SingleChildScrollView(
-        padding: const EdgeInsets.symmetric(vertical: 40, horizontal: 12),
+        padding: const EdgeInsets.symmetric(vertical: 40, horizontal: 20),
         child: Form(
           key: _formKey,
           child: Column(
@@ -35,7 +37,7 @@ class HomePage extends StatelessWidget {
                 "Para começar \ncomo podemos te chamar?",
                 style: styleBase.copyWith(fontSize: 18),
               ),
-              SizedBox(height: 17),
+              SizedBox(height: 20),
               TextFormField(
                 autovalidateMode: AutovalidateMode.onUserInteraction,
                 decoration: inputDecorationTextform("Digite o seu nome"),

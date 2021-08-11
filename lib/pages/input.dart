@@ -23,7 +23,7 @@ class _InputBasalInfoPageState extends State<InputBasalInfoPage> {
     return Scaffold(
       backgroundColor: Color(0xffF3F3F3),
       body: SingleChildScrollView(
-        padding: const EdgeInsets.symmetric(vertical: 40, horizontal: 12),
+        padding: const EdgeInsets.symmetric(vertical: 40, horizontal: 20),
         child: Form(
           key: _formKey,
           child: Column(
@@ -47,14 +47,14 @@ class _InputBasalInfoPageState extends State<InputBasalInfoPage> {
                   ],
                 ),
               ),
-              SizedBox(height: 17),
+              SizedBox(height: 35),
               Text(
                 "Vamos calcular o seu gasto\nenergético basal!",
                 style: styleBase.copyWith(
                   fontSize: 18,
                 ),
               ),
-              SizedBox(height: 17),
+              SizedBox(height: 20),
               DropdownButtonFormField(
                 autovalidateMode: AutovalidateMode.onUserInteraction,
                 decoration: inputDecorationTextform("Seu sexo"),
@@ -151,7 +151,7 @@ class _InputBasalInfoPageState extends State<InputBasalInfoPage> {
                   return null;
                 },
               ),
-              SizedBox(height: 10),
+              SizedBox(height: 20),
               button(
                 title: "Calcular",
                 onPressed: () {
