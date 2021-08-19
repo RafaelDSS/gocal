@@ -3,6 +3,8 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:drawable="@color/colorPrimary" />
 
+    <!-- https://stackoverflow.com/questions/50327633/distorted-splash-screen-in-some-devices -->
+
     <!-- You can insert your own image assets here -->
     <item
         android:gravity="center"

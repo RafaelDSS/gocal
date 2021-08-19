@@ -17,6 +17,7 @@ InputDecoration inputDecorationTextform(String hintText) {
     hintStyle: TextStyle(
       color: Color(0xff969CB2),
     ),
+    counterText: "",
     filled: true,
     fillColor: Colors.white,
   );
