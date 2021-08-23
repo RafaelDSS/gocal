@@ -1,5 +1,7 @@
 # gocal
 
+[Download from Google Play Store](https://play.google.com/store/apps/details?id=com.br.gocal)
+
 A new Flutter project.
 
 ## Getting Started
