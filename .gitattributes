@@ -1,2 +1,5 @@
-* linguist-vendored
-*.dart linguist-vendored=false
+*.dart linguist-detectable=true 
+*.js linguist-detectable=false 
+*.html linguist-detectable=false 
+*.cc linguist-detectable=false
+*.h linguist-detectable=false
