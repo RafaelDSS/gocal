@@ -1,4 +1,5 @@
 *.dart linguist-detectable=true
 web linguist-detectable=false
-linux linguist-detectable=false
+linux/**/* linguist-detectable=false
+windows/**/* linguist-detectable=false
 macos linguist-detectable=false
